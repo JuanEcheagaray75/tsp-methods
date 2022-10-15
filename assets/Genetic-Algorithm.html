@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fab5fa555d21ca4fa812b8cd7296e36a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_fab5fa555d21ca4fa812b8cd7296e36a" ></div>
+        
+</body>
+<script>    
+    
+            var map_fab5fa555d21ca4fa812b8cd7296e36a = L.map(
+                "map_fab5fa555d21ca4fa812b8cd7296e36a",
+                {
+                    center: [25.69263, -100.3515],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_af31979d16714f5ad2cacb2121fd4c40 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_fab5fa555d21ca4fa812b8cd7296e36a);
+        
+    
+            var marker_b76f0e24166ee64e49842ad1f430e6a5 = L.marker(
+                [25.69263, -100.3515],
+                {}
+            ).addTo(map_fab5fa555d21ca4fa812b8cd7296e36a);
+        
+    
+        var popup_da6c8600df319a0a6751dff84f94761b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a875e5a22a3f2bc4289601ad1066b52e = $(`<div id="html_a875e5a22a3f2bc4289601ad1066b52e" style="width: 100.0%; height: 100.0%;">Av. Dr. José Eleuterio González S/N, Mitras Centro, 64460 Monterrey, N.L.</div>`)[0];
+                popup_da6c8600df319a0a6751dff84f94761b.setContent(html_a875e5a22a3f2bc4289601ad1066b52e);
+            
+        
+
+        marker_b76f0e24166ee64e49842ad1f430e6a5.bindPopup(popup_da6c8600df319a0a6751dff84f94761b)
+        ;
+
+        
+    
+    
+            var marker_2b135ae339f26f3a8d6ee648ad4101eb = L.marker(
+                [25.67204, -100.3082],
+                {}
+            ).addTo(map_fab5fa555d21ca4fa812b8cd7296e36a);
+        
+    
+        var popup_9094ce35d3342357b5f1ff04ed8d0b98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3d4640b870b1ca47ea48f9b841f2613 = $(`<div id="html_a3d4640b870b1ca47ea48f9b841f2613" style="width: 100.0%; height: 100.0%;">Dr José Ma. Coss 445, Centro, 64000 Monterrey, N.L.</div>`)[0];
+                popup_9094ce35d3342357b5f1ff04ed8d0b98.setContent(html_a3d4640b870b1ca47ea48f9b841f2613);
+            
+        
+
+        marker_2b135ae339f26f3a8d6ee648ad4101eb.bindPopup(popup_9094ce35d3342357b5f1ff04ed8d0b98)
+        ;
+
+        
+    
+    
+            var marker_800db80ae2a0a65baa37add66ba9451c = L.marker(
+                [25.65219, -100.29266],
+                {}
+            ).addTo(map_fab5fa555d21ca4fa812b8cd7296e36a);
+        
+    
+        var popup_a755c454cbc56f942c8be5d22a03b859 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15de1893c63e6d04bdc2267c59f58564 = $(`<div id="html_15de1893c63e6d04bdc2267c59f58564" style="width: 100.0%; height: 100.0%;">Av. Eugenio Garza Sada Sur 2501 Sur, Tecnológico, 64849 Monterrey, N.L.</div>`)[0];
+                popup_a755c454cbc56f942c8be5d22a03b859.setContent(html_15de1893c63e6d04bdc2267c59f58564);
+            
+        
+
+        marker_800db80ae2a0a65baa37add66ba9451c.bindPopup(popup_a755c454cbc56f942c8be5d22a03b859)
+        ;
+
+        
+    
+    
+            var marker_b16183fe6d265ab5c260e7cb901cd9ac = L.marker(
+                [25.62422, -100.29078],
+                {}
+            ).addTo(map_fab5fa555d21ca4fa812b8cd7296e36a);
+        
+    
+        var popup_bef87599dad110e2bc229849c74b8589 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0374cd0c0f77777b17d40bb13eaa2091 = $(`<div id="html_0374cd0c0f77777b17d40bb13eaa2091" style="width: 100.0%; height: 100.0%;">Av Lázaro Cárdenas 3500, Del Paseo Residencial, 64920 Monterrey, N.L.</div>`)[0];
+                popup_bef87599dad110e2bc229849c74b8589.setContent(html_0374cd0c0f77777b17d40bb13eaa2091);
+            
+        
+
+        marker_b16183fe6d265ab5c260e7cb901cd9ac.bindPopup(popup_bef87599dad110e2bc229849c74b8589)
+        ;
+
+        
+    
+    
+            var marker_26c98f1974d868a53f6f4f77d02f398c = L.marker(
+                [25.6372, -100.27038],
+                {}
+            ).addTo(map_fab5fa555d21ca4fa812b8cd7296e36a);
+        
+    
+        var popup_c16db83e08aaa32e9fd565356e59882a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_305330ae173275bc3503c89a320cee9b = $(`<div id="html_305330ae173275bc3503c89a320cee9b" style="width: 100.0%; height: 100.0%;">Anaxágoras 1000, Contry La Silla 1er Sector, 67173 Monterrey, N.L.</div>`)[0];
+                popup_c16db83e08aaa32e9fd565356e59882a.setContent(html_305330ae173275bc3503c89a320cee9b);
+            
+        
+
+        marker_26c98f1974d868a53f6f4f77d02f398c.bindPopup(popup_c16db83e08aaa32e9fd565356e59882a)
+        ;
+
+        
+    
+    
+            var marker_809280891d58b9d7538c348e20234620 = L.marker(
+                [25.639681, -100.317679],
+                {}
+            ).addTo(map_fab5fa555d21ca4fa812b8cd7296e36a);
+        
+    
+        var popup_9a9296d8e5fc3243f8f29e0d09416f4e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0567fd426eb478eaa76e25f4b9d185ac = $(`<div id="html_0567fd426eb478eaa76e25f4b9d185ac" style="width: 100.0%; height: 100.0%;">Av. Lázaro Cárdenas 800, Zona Valle Oriente, 66269 Monterrey, N.L.</div>`)[0];
+                popup_9a9296d8e5fc3243f8f29e0d09416f4e.setContent(html_0567fd426eb478eaa76e25f4b9d185ac);
+            
+        
+
+        marker_809280891d58b9d7538c348e20234620.bindPopup(popup_9a9296d8e5fc3243f8f29e0d09416f4e)
+        ;
+
+        
+    
+    
+            var marker_e0985cefd0ca3026c69397d54859b2be = L.marker(
+                [25.63588, -100.35808],
+                {}
+            ).addTo(map_fab5fa555d21ca4fa812b8cd7296e36a);
+        
+    
+        var popup_71613bfbef118d1dcf74d470270e25e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cde5e85b53ee8e506c68fa3d3f7da65a = $(`<div id="html_cde5e85b53ee8e506c68fa3d3f7da65a" style="width: 100.0%; height: 100.0%;">Av. Roberto Garza Sada 1000, Carrizalejo, 66254 San Pedro Garza García, N.L.</div>`)[0];
+                popup_71613bfbef118d1dcf74d470270e25e5.setContent(html_cde5e85b53ee8e506c68fa3d3f7da65a);
+            
+        
+
+        marker_e0985cefd0ca3026c69397d54859b2be.bindPopup(popup_71613bfbef118d1dcf74d470270e25e5)
+        ;
+
+        
+    
+    
+            var marker_040dafe7c24608c869c05e47aefdf55e = L.marker(
+                [25.67468, -100.41837],
+                {}
+            ).addTo(map_fab5fa555d21ca4fa812b8cd7296e36a);
+        
+    
+        var popup_8180efe6e41a71135d5f967201943bb0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4367f853fc9f3b1ae6599e71693ae66 = $(`<div id="html_f4367f853fc9f3b1ae6599e71693ae66" style="width: 100.0%; height: 100.0%;">Blvd Gustavo Díaz Ordaz #500, Zona Industrial, 66210 San Pedro Garza García, N.L.</div>`)[0];
+                popup_8180efe6e41a71135d5f967201943bb0.setContent(html_f4367f853fc9f3b1ae6599e71693ae66);
+            
+        
+
+        marker_040dafe7c24608c869c05e47aefdf55e.bindPopup(popup_8180efe6e41a71135d5f967201943bb0)
+        ;
+
+        
+    
+    
+            var marker_0dd683cb3c6627a8fefe0ef2be061682 = L.marker(
+                [25.66941, -100.37447],
+                {}
+            ).addTo(map_fab5fa555d21ca4fa812b8cd7296e36a);
+        
+    
+        var popup_dd9dbd2be8565e41fc3aadc18afda2d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6a41308dfc5745a8891451147b4cf9f = $(`<div id="html_b6a41308dfc5745a8891451147b4cf9f" style="width: 100.0%; height: 100.0%;">Boulevard Antonio L. Rodríguez Plaza Sur 1882, Santa María, 64650 Monterrey, N.L.</div>`)[0];
+                popup_dd9dbd2be8565e41fc3aadc18afda2d5.setContent(html_b6a41308dfc5745a8891451147b4cf9f);
+            
+        
+
+        marker_0dd683cb3c6627a8fefe0ef2be061682.bindPopup(popup_dd9dbd2be8565e41fc3aadc18afda2d5)
+        ;
+
+        
+    
+    
+            var marker_3d1b9d835b6964c148a91583775cf919 = L.marker(
+                [25.70216, -100.32497],
+                {}
+            ).addTo(map_fab5fa555d21ca4fa812b8cd7296e36a);
+        
+    
+        var popup_2572a3774ba8824777c04597d0635491 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a22dd40082bd5eace6f4feb2ccab77b9 = $(`<div id="html_a22dd40082bd5eace6f4feb2ccab77b9" style="width: 100.0%; height: 100.0%;">Manuel de la Peña y Peña 1375, Sin Nombre de Col 22, Monterrey, N.L.</div>`)[0];
+                popup_2572a3774ba8824777c04597d0635491.setContent(html_a22dd40082bd5eace6f4feb2ccab77b9);
+            
+        
+
+        marker_3d1b9d835b6964c148a91583775cf919.bindPopup(popup_2572a3774ba8824777c04597d0635491)
+        ;
+
+        
+    
+    
+            var marker_fa32472ba304dd92f9b7db8e9c239aaa = L.marker(
+                [25.78068, -100.45651],
+                {}
+            ).addTo(map_fab5fa555d21ca4fa812b8cd7296e36a);
+        
+    
+        var popup_b3717d8974e808b8ebd00c637d7da198 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5cf6ba64ad19f708632bb6ccf06fd1da = $(`<div id="html_5cf6ba64ad19f708632bb6ccf06fd1da" style="width: 100.0%; height: 100.0%;">Av Abraham Lincoln 14790, Parque Industrial Cd Mitras, 66230 García, N.L.</div>`)[0];
+                popup_b3717d8974e808b8ebd00c637d7da198.setContent(html_5cf6ba64ad19f708632bb6ccf06fd1da);
+            
+        
+
+        marker_fa32472ba304dd92f9b7db8e9c239aaa.bindPopup(popup_b3717d8974e808b8ebd00c637d7da198)
+        ;
+
+        
+    
+    
+            var marker_d3024c7ba8a11bb91100c7e9b743343b = L.marker(
+                [25.76329, -100.20808],
+                {}
+            ).addTo(map_fab5fa555d21ca4fa812b8cd7296e36a);
+        
+    
+        var popup_187ffac6e80fc247e661e73b0d03849a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_536d959474b83c9ca9071967d10a1291 = $(`<div id="html_536d959474b83c9ca9071967d10a1291" style="width: 100.0%; height: 100.0%;">Ojo de Agua 55, Moderno Apodaca II, 66600 Cd Apodaca, N.L.</div>`)[0];
+                popup_187ffac6e80fc247e661e73b0d03849a.setContent(html_536d959474b83c9ca9071967d10a1291);
+            
+        
+
+        marker_d3024c7ba8a11bb91100c7e9b743343b.bindPopup(popup_187ffac6e80fc247e661e73b0d03849a)
+        ;
+
+        
+    
+    
+            var marker_07e9618299d7bb4d149ff5f805f6776b = L.marker(
+                [25.6594452, -100.2277285],
+                {}
+            ).addTo(map_fab5fa555d21ca4fa812b8cd7296e36a);
+        
+    
+        var popup_23c23c7e1f294c3673cc6b1ceb7ac5f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34f47f4bcd657e3315e108ec78ab92c4 = $(`<div id="html_34f47f4bcd657e3315e108ec78ab92c4" style="width: 100.0%; height: 100.0%;">Av Eloy Cavazos 3301, Camino Real, 67170 Guadalupe, N.L.</div>`)[0];
+                popup_23c23c7e1f294c3673cc6b1ceb7ac5f8.setContent(html_34f47f4bcd657e3315e108ec78ab92c4);
+            
+        
+
+        marker_07e9618299d7bb4d149ff5f805f6776b.bindPopup(popup_23c23c7e1f294c3673cc6b1ceb7ac5f8)
+        ;
+
+        
+    
+    
+            var marker_8fafb8fab22b665a8a8fab7eb3c09567 = L.marker(
+                [25.78129387, -100.18922424],
+                {}
+            ).addTo(map_fab5fa555d21ca4fa812b8cd7296e36a);
+        
+    
+        var popup_060a27d87fa296dfc590babb2f9fd3e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e90fa0db44bcf425ab055c2411d39aa = $(`<div id="html_7e90fa0db44bcf425ab055c2411d39aa" style="width: 100.0%; height: 100.0%;">Hacienda Las Margaritas 8vo. Sector, 67114 Ciudad Apodaca, NL</div>`)[0];
+                popup_060a27d87fa296dfc590babb2f9fd3e0.setContent(html_7e90fa0db44bcf425ab055c2411d39aa);
+            
+        
+
+        marker_8fafb8fab22b665a8a8fab7eb3c09567.bindPopup(popup_060a27d87fa296dfc590babb2f9fd3e0)
+        ;
+
+        
+    
+    
+            var marker_d304c6f727b5888bdc84a429e2bfc12d = L.marker(
+                [25.78945, -100.31903],
+                {}
+            ).addTo(map_fab5fa555d21ca4fa812b8cd7296e36a);
+        
+    
+        var popup_0ef8b5495c7d3ced28f20b8f84e91eec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_baee7db2930e5d21aab3ad9db88cb587 = $(`<div id="html_baee7db2930e5d21aab3ad9db88cb587" style="width: 100.0%; height: 100.0%;">Av. Las Torres, Sin Nombre de Col 15, 66056 Cd Gral Escobedo, N.L.</div>`)[0];
+                popup_0ef8b5495c7d3ced28f20b8f84e91eec.setContent(html_baee7db2930e5d21aab3ad9db88cb587);
+            
+        
+
+        marker_d304c6f727b5888bdc84a429e2bfc12d.bindPopup(popup_0ef8b5495c7d3ced28f20b8f84e91eec)
+        ;
+
+        
+    
+    
+            var marker_391190aea5fb794b6f1a92c5e54a99f9 = L.marker(
+                [25.6881114, -100.49611577],
+                {}
+            ).addTo(map_fab5fa555d21ca4fa812b8cd7296e36a);
+        
+    
+        var popup_e7ee2b7326f5aedc4e3a706d4bb97902 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bfeb4a7fe4b5f6c201404b4656a533bf = $(`<div id="html_bfeb4a7fe4b5f6c201404b4656a533bf" style="width: 100.0%; height: 100.0%;">Carr. Monterrey - Saltillo 2601, Parque Industrial la Puerta, 66367 Santa Catarina, N.L.</div>`)[0];
+                popup_e7ee2b7326f5aedc4e3a706d4bb97902.setContent(html_bfeb4a7fe4b5f6c201404b4656a533bf);
+            
+        
+
+        marker_391190aea5fb794b6f1a92c5e54a99f9.bindPopup(popup_e7ee2b7326f5aedc4e3a706d4bb97902)
+        ;
+
+        
+    
+    
+            var poly_line_63295703a761417786b804b5007e27d6 = L.polyline(
+                [[25.69263, -100.3515], [25.78129387, -100.18922424], [25.76329, -100.20808], [25.78945, -100.31903], [25.78068, -100.45651], [25.6881114, -100.49611577], [25.67468, -100.41837], [25.639681, -100.317679], [25.65219, -100.29266], [25.6372, -100.27038], [25.6594452, -100.2277285], [25.62422, -100.29078], [25.70216, -100.32497], [25.63588, -100.35808], [25.67204, -100.3082], [25.66941, -100.37447], [25.69263, -100.3515]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_fab5fa555d21ca4fa812b8cd7296e36a);
+        
+    
+            poly_line_63295703a761417786b804b5007e27d6.bindTooltip(
+                `<div>
+                     Genetic-Algorithm: 128.7732
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
