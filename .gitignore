@@ -2,3 +2,5 @@ key.txt
 .venv
 .ipynb_checkpoints
 *.npy
+python-tsp.html
+python-tsp.pdf
